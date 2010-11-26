@@ -52,6 +52,8 @@ rm -rf %{buildroot}
 
 %find_lang meego-panel-status
 
+rm %{buildroot}%{_libdir}/libmeego-panel-status.la
+
 %post -p /sbin/ldconfig
 
 %postun -p /sbin/ldconfig
@@ -59,7 +61,7 @@ rm -rf %{buildroot}
 %files -f meego-panel-status.lang
 %defattr(-,root,root,-)
 %doc COPYING
-%{_libexecdir}/*
+%{_libdir}/meego-panel-status
 %{_datadir}/dbus-1/services/com.meego.UX.Shell.Panels.status.service
 %{_datadir}/meego-panel-status/theme/add_status_header.png
 %{_datadir}/meego-panel-status/theme/add_status_header_hover.png
