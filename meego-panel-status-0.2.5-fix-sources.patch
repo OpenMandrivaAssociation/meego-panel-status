@@ -1,0 +1,11 @@
+diff -rud meego-panel-status-0.2.5-orig/src/Makefile.am meego-panel-status-0.2.5/src/Makefile.am
+--- meego-panel-status-0.2.5-orig/src/Makefile.am	2010-08-24 11:21:35.000000000 -0300
++++ meego-panel-status-0.2.5/src/Makefile.am	2010-11-10 22:54:06.000000000 -0200
+@@ -38,6 +38,7 @@
+ 	mps-module.h
+ 
+ libmeego_panel_status_la_SOURCES = \
++	meego-panel-status.c \
+ 	penge-magic-texture.c \
+ 	penge-clickable-label.c \
+ 	mps-tweet-card.c \

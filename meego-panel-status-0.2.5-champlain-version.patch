@@ -1,0 +1,13 @@
+diff -rud meego-panel-status-0.2.5-orig//configure.ac meego-panel-status-0.2.5/configure.ac
+--- meego-panel-status-0.2.5-orig//configure.ac	2010-09-13 10:38:17.000000000 -0300
++++ meego-panel-status-0.2.5/configure.ac	2010-11-10 22:02:40.000000000 -0200
+@@ -32,7 +32,7 @@
+                    clutter-gtk-0.10
+                    libsocialweb-client >= 0.25.3      dnl
+                    mx-1.0 >= 0.9.0
+-                   champlain-0.4
++                   champlain-0.8
+                    geoclue
+                    gconf-2.0])
+ 
+Only in meego-panel-status-0.2.5: configure.ac~
