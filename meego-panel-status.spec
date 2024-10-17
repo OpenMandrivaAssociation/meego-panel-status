@@ -4,7 +4,7 @@ Version: 0.2.5
 Release: %mkrel 1
 Group: System/Desktop
 License: LGPL 2.1
-URL: http://www.meego.com
+URL: https://www.meego.com
 Source0: http://repo.meego.com/MeeGo/releases/1.1/netbook/repos/source/%{name}-%{version}.tar.gz
 Patch0: meego-panel-status-0.2.5-champlain-version.patch
 Patch1: meego-panel-status-0.2.5-fix-sources.patch
